@@ -386,22 +386,22 @@ body{
 }
 /* end today */
 /* start Join */
-#Join{
+.Join{
     padding: 3em 0;
     background-color: #1a57a5;
 }
-#small-join{
+.small-join{
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
-#small-join h2{
+.small-join h2{
     color: #ffffff;
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 30px;
 }
-#small-join p{
+.small-join p{
     font-size: 16px;
     color: rgba(255,255,255,.7);
     line-height: 1.7;
@@ -430,12 +430,88 @@ body{
     margin: 0 0 30px;
     color: #000000;
 }
-#information input{
+.form{
     padding: 6px 12px;
     margin: 0 0 15px;
-
+    border: 1px solid #d9d9d9;
+    font-size: 14px;
+    height: 34px;
+    color: #555;
+    width: 94.5%;
 }
 li{
     text-align: left;
 }
+textarea{
+    font-family: 'Open Sans' ,Arial ,sans-serif;
+    padding: 6px 12px;
+    border: 1px solid #d9d9d9;
+    color: #555;
+    border-radius: 0;
+    font-size: 14px;
+    font-size: 14px;
+    height: 34px;
+    height: auto;
+    width: 94.5%;
+}
+input::placeholder{
+    color: #969799;
+}
+textarea::placeholder{
+    color: #969799;
+}
+#submit{
+    color: #fff;
+    padding: 10px 40px;
+    background-color: #1a57a5;
+    border: 1px solid #1a57a5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    transition: 0.3s;
+} 
+#submit:hover{
+    background-color: #103463;
+    border: 1px solid #103463;
+}
+li{
+    margin-bottom: 30px;
+    line-height: 1.7;
+    font-size: 16px;
+    list-style: none;
+    color: #73767c;
+    font-weight: 400;
+}
+span{
+    color: #0000004d;
+    font-size: 16px;
+}
 /* end sebd message */
+/* start footer */
+#footer-links{
+    margin-bottom: 30px;
+}
+#footer-links a{
+    padding: 10px;
+}
+#footer-links a i{
+    font-size: 30px;
+    color: #ffffff66;
+    transition: 0.3s;
+}
+#footer-links a i:hover{
+    color: #fff;
+}
+#footer-text p{
+    color: #fff;
+    font-size: 16px;
+}
+#footer-text a{
+    color: #ffffff66;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#footer-text a:hover{
+    color: #fff;
+}
+/* end footer */
