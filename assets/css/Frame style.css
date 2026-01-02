@@ -486,6 +486,9 @@ span{
     color: #0000004d;
     font-size: 16px;
 }
+input :active{ 
+    border: 1px solid #1a57a5;
+}
 /* end sebd message */
 /* start footer */
 #footer-links{
